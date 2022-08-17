@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@0;1&display=swap");
+
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: 0px;
+  font-family: "Gentium Plus", serif;
+}
+#container {
+  background: var(--primary-color);
+  color: #fff;
+  width: 600px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  color: #fff;
+  background: #000;
+}
+.col2 {
+    position: relative;
+    border-bottom: 2px solid #000;
+}
+
+.col1 {
+    position: absolute;
+    top: 138px;
+    right: 100px;
+}
+.col3 {
+    font-size: 22px;
+    padding: 20px;
+}
+.paragrafo, .invalido {
+    color: #000;
+    font-size: 22px;
+    padding: 10px;
+    background: #7CFC00;
+}
+.invalido {
+  background: #df3535;
+}
